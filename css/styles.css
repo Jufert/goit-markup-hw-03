@@ -60,19 +60,19 @@ header {
 .menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding: 24px 0 24px;
   align-items: center;
 }
 .header_address {
+  display: flex;
   gap: 40px;
   align-items: center;
-  margin-right: 40px;
-  margin-top: 0px;
 }
+
 .header_ul_address {
   display: flex;
   gap: 40px;
-}
+} 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -116,7 +116,7 @@ header {
 }
 .section_one {
   background: #2e2f42;
-  padding: 120px;
+  padding: 188px;
 }
 .header_one {
   font-weight: 700;
@@ -150,6 +150,7 @@ header {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
+  min-width: 169px;
 }
 .button:hover,
 .button:focus {
@@ -159,10 +160,6 @@ header {
   padding: 120px;
   display: block;
 }
-.section_two_ul {
-  display: flex;
-  gap: 24px;
-}
 .header_three_section_two {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -171,6 +168,13 @@ header {
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 8px;
+}
+.section_two_ul {
+  display: flex;
+  gap: 24px;
+}
+.section_two_li {
+  width: calc((100% - 72px) / 4); 
 }
 .paragraph_section_two {
   font-family: "Roboto", sans-serif;
@@ -182,11 +186,12 @@ header {
 }
 .section_three {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 .section_three_ul {
   display: flex;
   gap: 24px;
+  
 }
 .li_section_three {
   background-color: #ffffff;
@@ -200,6 +205,7 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
+  margin-bottom: 72px;
 }
 .header_three_section_three {
   font-family: "Roboto", sans-serif;
@@ -247,7 +253,7 @@ header {
 }
 .footer {
   background-color: rgba(46, 47, 66, 1);
-  padding: 120px;
+  padding: 100px;
 }
 .logo_footer {
   font-family: "Raleway", sans-serif;
@@ -257,6 +263,8 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .logo_studio_footer {
   color: #f4f4fd;
@@ -265,4 +273,5 @@ header {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  width: 264px;
 }
