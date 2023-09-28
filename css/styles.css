@@ -60,7 +60,7 @@ header {
 .menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
+  padding: 24px 0;
   align-items: center;
 }
 .header_address {
@@ -116,7 +116,7 @@ header {
 }
 .section_one {
   background: #2e2f42;
-  padding: 188px;
+  padding: 188px 0;
 }
 .header_one {
   font-weight: 700;
@@ -191,7 +191,7 @@ header {
 .section_three_ul {
   display: flex;
   gap: 24px;
-  
+
 }
 .li_section_three {
   background-color: #ffffff;
@@ -253,7 +253,7 @@ header {
 }
 .footer {
   background-color: rgba(46, 47, 66, 1);
-  padding: 100px;
+  padding: 100px 0;
 }
 .logo_footer {
   font-family: "Raleway", sans-serif;
@@ -275,3 +275,15 @@ header {
   line-height: 1.5;
   width: 264px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+ }
